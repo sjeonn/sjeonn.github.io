@@ -1,0 +1,85 @@
+.page { /*potentially need to adjust for different screen sizes*/
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.left {
+    display: flex;
+    width: 280px;
+    padding-right: 30px;
+    justify-content: flex-end;
+}
+
+h1 {
+    display: flex;
+    font-family: "Londrina Sketch", "Roboto", sans-serif;
+    font-size: 60pt;
+    text-align: center;
+}
+
+.h1hover {
+    text-shadow: 3px 2px 3px rgba(65, 65, 65, 0.64);
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+    width: 250px;
+    border: solid black;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button {
+    font-family: "Londrina Sketch", Tahoma, sans-serif;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    /*background-color: limegreen;
+    color: white;*/
+    border: solid black;
+    background-color: whitesmoke;
+    width: 220px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    border: solid black;
+}
+
+.pixel {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.fill1 {
+    display: flex;
+    background-color: rgb(122.5, 122.5, 122.5);
+}
+
+.fill2 {
+    display: flex;
+    background-color: black;
+}
+
+.btnhover {
+    background-color: darkseagreen;
+}

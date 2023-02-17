@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black;
+    background-color: rgb(25,25,25);
+    border-radius: 10px;
+    height: 90vh;
+    width: 38vw;
+}
+
+.screen {
+    border: solid gainsboro;
+    border-left-width: 15pt;
+    border-right-width: 15pt;
+    border-top-width: 3pt;
+    border-bottom-width: 3pt;
+    border-radius: 5px;
+    background-color: darkseagreen;
+    width: 80%;
+    height: 19.5%;
+    margin-top: 6%;
+    text-align: right;
+    font-family: "Share Tech Mono", 'Courier New', Courier, monospace;
+    font-size: 72pt;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+    border-radius: 10px;
+    height: 57%;
+    width: 88%;
+    margin-top: 6%;
+    padding: 5%;
+}
+
+.left {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1.1%;
+}
+
+.btn {
+    height: 7.9vh;
+    width: 7.9vw;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background-color: whitesmoke;
+}
+
+.clear {
+    background-color: crimson;
+    color: white
+}
+
+.op, #eq, #sign{
+    background-color: dimgray;
+    color: white;
+}
+
+#zero {
+    width: 16.3vw; 
+}
