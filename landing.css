@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(32, 122, 113);
+    /*background-color: rgb(229, 212, 195); /*scrapbook paper*/
+}
+
+#hello {
+    display: flex;
+    height: 50vh;
+    max-width: 80vw;
+    z-index: -1;
+}
+
+#arrow {
+    position: fixed;
+    top: 45%;
+    right: 15%;
+    height: 10vh;
+}
+
+#laptop {
+    position: fixed;
+    bottom: 10%;
+    left: 10%;
+    height: 20vh;
+}
+
+#leaves {
+    position: fixed;
+    transform: rotate(45deg);
+    bottom: -25%;
+    right: 12%;
+    height: 58%;
+}
+
+#camp {
+    position: fixed;
+    transform: rotate(-10deg);
+    top: 2%;
+    right: 25%;
+    height: 27%;
+}
+
+#spark1 {
+    position: fixed;
+    transform: rotate(3deg);
+    bottom: 25%;
+    left: 22%;
+    height: 12%;
+}
+
+#spark2 {
+    position: fixed;
+    transform: rotate(3deg);
+    bottom: 3%;
+    right: 25%;
+    height: 12%;
+}
+
+#words {
+    position: fixed;
+    transform: rotate(-9deg);
+    top: 4%;
+    left: 8%;
+    height: 5%;
+}
+
+.spine { /*spacing is prob gonna need to be fixed*/
+    position: fixed;
+    left: 0%;
+    top: -2%;
+    width: 4vw;
+    height: 100vh;
+    background-image: url("images/spine-spaced.svg");
+    background-repeat: space;
+}
+
+.sticker {
+    filter: drop-shadow(0 0 1px dimgray);
+}
+
+/*
+#first {
+    position: fixed;
+    top: 5%;
+    left: 0%;
+    height: 4vh;
+}
+*/
