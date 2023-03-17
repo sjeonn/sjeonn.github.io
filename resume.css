@@ -32,3 +32,7 @@ html {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+iframe {
+    height: calc(65vw / 8.5 * 11.6);
+}  
