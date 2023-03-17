@@ -97,7 +97,6 @@ body {
 
 @media screen and (max-width: 900px) {
     #arrow {
-        position: fixed;
         height: 9vh;
         right: 7%;
         max-width: 5vw;
@@ -118,7 +117,6 @@ body {
 
 @media screen and (max-width: 600px) {
     #arrow {
-        position: fixed;
         height: 8vh;
         right: 5%;
         max-width: 5vw;
@@ -130,9 +128,8 @@ body {
         bottom: 18%;
     }
     #arrow {
-        position: fixed;
         height: 8vh;
-        right: 5%;
+        right: 2%;
         max-width: 5%;
     }
 }
