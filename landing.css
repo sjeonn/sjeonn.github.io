@@ -124,3 +124,15 @@ body {
         max-width: 5vw;
     }
 }
+
+@media screen and (max-width: 450px) {
+    #leaves {
+        bottom: 18%;
+    }
+    #arrow {
+        position: fixed;
+        height: 8vh;
+        right: 5%;
+        max-width: 5%;
+    }
+}
