@@ -127,12 +127,12 @@ body {
 }
 }
 */
-@media screen and (max-width: 450px) {
+@media screen and (orientation: portrait) {
     #leaves {
         bottom: 18%;
     }
     #arrow {
-        right: 2%;
+        right: 10%;
         min-height: 10vh;
     }
 }

@@ -91,10 +91,12 @@ a {
         align-content: flex-end;
         justify-content: center;
     }
-    .content {
-        width: 85vw;
-    }
+}
 
+@media screen and (max-width: 900px) {
+    .content {
+        width: 78vw;
+    }
 }
 
 .sticker {
@@ -104,6 +106,6 @@ a {
 
 @media screen and (orientation: portrait) {
     .sticker {
-      display: none;
+        display: none;
     }
   }
