@@ -19,7 +19,8 @@ body {
     position: fixed;
     top: 45%;
     right: 15%;
-    height: 10vh;
+    width: 3%;
+    z-index: 101;
 }
 
 #laptop {
@@ -97,9 +98,8 @@ body {
 
 @media screen and (max-width: 900px) {
     #arrow {
-        height: 9vh;
         right: 7%;
-        max-width: 5vw;
+        min-height: 5vh;
 
     }
     #leaves {
@@ -114,13 +114,12 @@ body {
         right: 10%;
     }
 }
-
+/*
 @media screen and (max-width: 600px) {
     #arrow {
-        height: 8vh;
         right: 5%;
-        max-width: 5vw;
-    }
+        max-height: 5vh;    
+}
 }
 
 @media screen and (max-width: 450px) {
