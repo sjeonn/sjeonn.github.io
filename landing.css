@@ -99,7 +99,7 @@ body {
 @media screen and (max-width: 900px) {
     #arrow {
         right: 7%;
-        min-height: 5vh;
+        min-height: 10vh;
 
     }
     #leaves {
@@ -117,18 +117,17 @@ body {
 /*
 @media screen and (max-width: 600px) {
     #arrow {
-        right: 5%;
-        max-height: 5vh;    
+        right: 3%;
+        min-height: 10vh;    
 }
 }
-
+*/
 @media screen and (max-width: 450px) {
     #leaves {
         bottom: 18%;
     }
     #arrow {
-        height: 8vh;
         right: 2%;
-        max-width: 5%;
+        min-height: 1010vh
     }
 }
