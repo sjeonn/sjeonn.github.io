@@ -40,5 +40,6 @@ iframe {
 @media screen and (max-width: 1100px) {
     iframe {
         width: 85vw;
+        height: calc(85vw / 8.5 * 11.6);
     }
 }

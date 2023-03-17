@@ -127,6 +127,6 @@ body {
     }
     #arrow {
         right: 2%;
-        min-height: 1010vh
+        min-height: 10vh;
     }
 }
