@@ -90,4 +90,8 @@ a {
         align-content: flex-end;
         justify-content: center;
     }
+    .content {
+        width: 75vw;
+    }
+
 }
