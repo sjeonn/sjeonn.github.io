@@ -1,3 +1,9 @@
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
 body {
     display: flex;
     align-items: center;
@@ -15,7 +21,7 @@ body {
 }
 
 #arrow {
-    position: fixed;
+    position: absolute;
     top: 45%;
     right: 15%;
     width: 3%;
@@ -23,7 +29,7 @@ body {
 }
 
 #laptop {
-    position: fixed;
+    position: absolute;
     bottom: 10%;
     left: 10%;
     height: 20vh;
@@ -31,7 +37,7 @@ body {
 }
 
 #leaves {
-    position: fixed;
+    position: absolute;
     transform: rotate(45deg);
     bottom: -25%;
     right: 12%;
@@ -39,7 +45,7 @@ body {
 }
 
 #camp {
-    position: fixed;
+    position: absolute;
     transform: rotate(-10deg);
     top: 2%;
     right: 25%;
@@ -48,7 +54,7 @@ body {
 }
 
 #spark1 {
-    position: fixed;
+    position: absolute;
     transform: rotate(3deg);
     bottom: 25%;
     left: 22%;
@@ -57,7 +63,7 @@ body {
 }
 
 #spark2 {
-    position: fixed;
+    position: absolute;
     transform: rotate(3deg);
     bottom: 3%;
     right: 25%;
@@ -66,7 +72,7 @@ body {
 }
 
 #words {
-    position: fixed;
+    position: absolute;
     transform: rotate(-9deg);
     top: 4%;
     left: 8%;
@@ -75,7 +81,7 @@ body {
 }
 
 .spine { /*spacing is prob gonna need to be fixed*/
-    position: fixed;
+    position: absolute;
     left: 0%;
     top: -2%;
     width: 4vw;

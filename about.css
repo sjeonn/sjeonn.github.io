@@ -1,3 +1,8 @@
+html {
+    overflow-y: hidden;
+    /*margin-right: calc(-1 * (100vw - 100%));*/
+}
+
 .linktext {
     display: flex;
     align-items: center;
@@ -31,9 +36,50 @@
     text-decoration: underline;
 }
 
+#leaves {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 13%;
+}
+
+#camp {
+    position: absolute;
+    transform: rotate(-10deg);
+    top: 30%;
+    left: 12%;
+    height: 27%;
+}
+
+#spark {
+    position: relative;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+}
+
 @media screen and (max-width: 1100px) {
     .main {
         justify-content: flex-start;
         height: calc(100vh - 260px);
+    }
+    #camp {
+        position: absolute;
+        transform: rotate(-10deg);
+        top: 70%;
+        left: 30%;
+        height: 27%;
+    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #camp {
+        position: absolute;
+        transform: rotate(-10deg);
+        top: 72%;
+        left: 35;
+        height: 27%;
+    
     }
 }

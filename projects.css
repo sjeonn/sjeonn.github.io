@@ -34,3 +34,25 @@ html {
 li a:first-of-type {
     font-weight: bold;
 }
+
+#laptop {
+    position: absolute;
+    top: 40%;
+    right: 9%;
+    height: 20vh;
+}
+
+@media screen and (max-width: 1250px) {
+    #laptop {
+        position: absolute;
+        top: 45%;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    #laptop {
+        position: absolute;
+        top: 55%;
+    }
+}

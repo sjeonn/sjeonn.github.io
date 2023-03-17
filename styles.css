@@ -16,6 +16,7 @@ body {
     width: 65vw;
     height: 100vh;
     font-family: "Lexend", Arial, Helvetica, sans-serif;
+    z-index: 100;
 }
 
 .header {
@@ -95,3 +96,14 @@ a {
     }
 
 }
+
+.sticker {
+    filter: drop-shadow(0 0 1px dimgray);
+    z-index: 0;
+}
+
+@media screen and (orientation: portrait) {
+    .sticker {
+      display: none;
+    }
+  }
