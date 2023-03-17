@@ -1,16 +1,27 @@
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+}
+
 .linktext {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#abt {
+#abt:hover {
     background-image: url("images/circle1.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#res:hover, #port:hover {
+#res {
+    background-image: url("images/circle2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#port:hover {
     background-image: url("images/circle2.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -20,13 +31,4 @@
     background-image: url("images/circle3.png");
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.main {
-    justify-content: space-between;
-    height: calc(100vh - 200px);
-}
-
-.contact a {
-    text-decoration: underline;
 }

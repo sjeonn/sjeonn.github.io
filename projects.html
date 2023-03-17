@@ -4,39 +4,69 @@
         <meta charset="UTF-8"/>
         <title>SAGE JEON</title>
         <link rel='stylesheet' href='styles.css'/>
+        <link rel='stylesheet' href='projects.css'/>
         <script type="text/javascript" src="projects.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;600;700&display=swap" rel="stylesheet">
     </head>
 
     <body style="margin:0">
-        <div class="header">
-            <h1>SAGE JEON</h1>
-            <a href="about.html">about</a>
-            <a href="resume.html">resume</a>
-            <a href="projects.html">coding projects</a>
-            <a href="portfolio.html">portfolio</a>
-        </div>
-
+        <div class="spine"></div>
         <div class="content">
-            <h2>projects</h2>
-            <p>
-                1. this website -- completely from scratch, baby! <br>
-                I'm sure there are better ways to do this, but tbh I'm still kinda new at this,
-                and this was a really good learning experience.
-            </p>
-            <p>
-                2. At the moment, I'm teaching myself web development since that wasn't something
-                that was really covered in depth in any of my classes or my org work. 
-                Currently working through <a href="https://www.theodinproject.com/">The Odin Project</a>
-                and having a great time!
-            </p>
-            <p>Here are some my Odin Project projects:</p>
-            <button >etch-a-sketch</button>
-            <img src="etch.png" style="width:100px"/>
-            <a target="_blank" href="eas.html">etch-a-sketch</a>
-            <a target="_blank" href="calc.html">calculator</a>
+            <div class="header">
+                <a href="about.html"><img src="images/name.svg" id="name" alt="SAGE JEON"/></a>
+                <div class="links">
+                    <a href="about.html" class="linktext" id="abt">about</a>
+                    <a href="resume.html" class="linktext" id="res">resume</a>
+                    <a href="projects.html" class="linktext" id="proj">coding projects</a>
+                    <a href="portfolio.html" class="linktext" id="port">portfolio</a>
+                </div>
+            </div>
 
-            <p>3. and more to come!</p>
+            <div class="main">
+                <div id="odin" class="section">
+                    <h2>The Odin Project</h2>
+                    <p>
+                        At the moment, I'm teaching myself web development since that wasn't something
+                        that was really covered in depth in any of my classes or my club work.
+                        Currently working through <a href="https://www.theodinproject.com/">The Odin Project</a>
+                        and having a great time!
+                    </p>
+                    <ul>
+                        <li><a target="_blank" href="files/eas.html">etch-a-sketch</a></li>
+                        <li><a target="_blank" href="files/calc.html">calculator</a></li>
+                    </ul>
+                </div>
 
+                <div id="github" class="section">
+                    <h2>Github</h2>
+                    <p>
+                        Ok, so, <a href="https://github.com/sjeonn">my Github</a> is kind of a mess, so I'm linking stuff here,
+                        and please just use this instead.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/sjeonn/pcs-bht">Berkeley Housing Tool</a>
+                            - Web tool meant to compile information about housing listings and resources in the Berkeley area 
+                            from multiple sources, such as Craigslist, property management companies, etc. For 
+                            <a href="https://pcs.berkeley.edu/">PCS</a>, a technical student organization with a focus on 
+                            project teams addressing political and social issues and discussion of current 
+                            political events and implications. Role: Project Manager
+                        </li>
+                        <li>
+                            <a href="https://github.com/sjeonn/splash-python">Splash Python Class</a> 
+                            - Curriculum for an Intro to Python class taught at 
+                            <a href="https://berkeley.learningu.org/">Splash at Berkeley</a>. 
+                            2 hour long classes using Jupyter notebooks.
+                        </li>
+                        <li><a href="https://github.com/sjeonn/sjeonn.github.io">this website!</a><br>
+                        </li>
+                    </ul>
+                </div>
+
+                <p>and more to come!</p>
+            </div>
         </div>
     </body>
 </html>

@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(234, 223, 202);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65vw;
+    height: 100vh;
+    font-family: "Lexend", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#name {
+    height: 60px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+
+.spine { /*spacing is prob gonna need to be fixed*/
+    position: fixed;
+    left: 0%;
+    top: -2%;
+    width: 4vw;
+    height: 100vh;
+    background-image: url("images/spine-spaced.svg");
+    background-repeat: space;
+}
+
+#abt {
+    width: 80px;
+    height: 58px;
+}
+
+#res, #port {
+    width: 100px;
+    height: 73px;
+}
+
+#proj {
+    width: 165px;
+    height: 73px;
+}

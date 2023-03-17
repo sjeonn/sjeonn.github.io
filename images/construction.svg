@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 431.26 81.77">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+        font-family: StencilStd, 'Stencil Std';
+        font-size: 35.89px;
+      }
+
+      .cls-3 {
+        fill: #eec11b;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <polygon points="224.18 0 174.16 81.77 196.3 81.77 246.32 0 224.18 0"/>
+        <polygon points="359.45 0 309.43 81.77 331.77 81.77 381.79 0 359.45 0"/>
+        <path d="m10.64,0C4.76,0,0,4.76,0,10.64v22.97L20.56,0h-9.92Z"/>
+        <polygon points="269.01 0 218.99 81.77 241.33 81.77 291.35 0 269.01 0"/>
+        <polygon points="179.15 0 129.13 81.77 151.47 81.77 201.49 0 179.15 0"/>
+        <polygon points="88.08 0 38.06 81.77 60.4 81.77 110.42 0 88.08 0"/>
+        <path d="m43.25,0L0,70.71v.43c0,5.88,4.76,10.64,10.64,10.64h4.73L65.39,0h-22.14Z"/>
+        <polygon points="133.11 0 83.09 81.77 106.44 81.77 156.46 0 133.11 0"/>
+        <polygon points="314.04 0 264.02 81.77 286.74 81.77 336.76 0 314.04 0"/>
+        <path d="m431.26,29.5l-31.97,52.27h21.33c.35,0,.7-.02,1.04-.05l9.6-15.69V29.5Z"/>
+        <path d="m420.62,0h-16.14l-50.02,81.77h22.14L425.79,1.35c-1.53-.86-3.3-1.35-5.18-1.35Z"/>
+        <polygon class="cls-3" points="65.39 0 15.37 81.77 38.06 81.77 88.08 0 65.39 0"/>
+        <polygon class="cls-3" points="110.42 0 60.4 81.77 83.09 81.77 133.11 0 110.42 0"/>
+        <polygon class="cls-3" points="20.56 0 0 33.61 0 70.71 43.25 0 20.56 0"/>
+        <polygon class="cls-3" points="246.32 0 196.3 81.77 218.99 81.77 269.01 0 246.32 0"/>
+        <polygon class="cls-3" points="291.35 0 241.33 81.77 264.02 81.77 314.04 0 291.35 0"/>
+        <polygon class="cls-3" points="156.46 0 106.44 81.77 129.13 81.77 179.15 0 156.46 0"/>
+        <polygon class="cls-3" points="201.49 0 151.47 81.77 174.16 81.77 224.18 0 201.49 0"/>
+        <path class="cls-3" d="m431.26,10.64c0-4-2.21-7.48-5.47-9.29l-49.2,80.43h22.69l31.97-52.27V10.64Z"/>
+        <path class="cls-3" d="m431.26,71.13v-5.1l-9.6,15.69c5.39-.52,9.6-5.06,9.6-10.59Z"/>
+        <polygon class="cls-3" points="336.76 0 286.74 81.77 309.43 81.77 359.45 0 336.76 0"/>
+        <polygon class="cls-3" points="381.79 0 331.77 81.77 354.46 81.77 404.48 0 381.79 0"/>
+      </g>
+      <rect class="cls-3" y="16.3" width="431.26" height="49.18"/>
+      <text class="cls-2" transform="translate(8.89 54.78) scale(.95 1)"><tspan x="0" y="0">UNDER CONS</tspan><tspan class="cls-5" x="243.07" y="0">T</tspan><tspan class="cls-1" x="266.32" y="0">RUC</tspan><tspan class="cls-4" x="345.28" y="0">T</tspan><tspan x="368.53" y="0">ION</tspan></text>
+    </g>
+  </g>
+</svg>

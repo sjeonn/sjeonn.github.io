@@ -4,13 +4,19 @@
     justify-content: center;
 }
 
-#abt {
+#abt:hover {
     background-image: url("images/circle1.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-#res:hover, #port:hover {
+#port {
+    background-image: url("images/circle2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#res:hover {
     background-image: url("images/circle2.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -22,11 +28,10 @@
     background-position: center;
 }
 
-.main {
-    justify-content: space-between;
-    height: calc(100vh - 200px);
-}
-
-.contact a {
-    text-decoration: underline;
+#const {
+    position: relative;
+    transform: rotate(-5deg);
+    top: 40%;
+    left: 30%;
+    max-width: 35%;
 }
