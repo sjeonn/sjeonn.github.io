@@ -20,7 +20,7 @@ body {
 }
 
 #arrow {
-    position: absolute;
+    position: fixed;
     top: 45%;
     right: 15%;
     width: 3%;
@@ -135,6 +135,11 @@ body {
     }
     #arrow {
         right: 10%;
-        min-height: 10vh;
+        min-height: 15vh;
+
+    }
+    #hello {
+        position: relative;
+        bottom: 2%;
     }
 }

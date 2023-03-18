@@ -58,6 +58,11 @@ iframe {
     left: 12%;
 }
 
+.main a {
+    align-self: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
 @media screen and (orientation: portrait) {
     iframe {
@@ -67,9 +72,6 @@ iframe {
 
 @media screen and (orientation: landscape) {
     .main a {
-        align-self: center;
-        text-decoration: underline;
-        font-weight: bold;
         display: none;
     }
 }
