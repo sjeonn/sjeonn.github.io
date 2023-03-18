@@ -42,6 +42,14 @@ li a:first-of-type {
     height: 20vh;
 }
 
+#heart {
+    position: absolute;
+    transform: rotate(-10deg);
+    top: 75%;
+    left: 10%;
+    height: 10vh;
+}
+
 @media screen and (max-width: 1250px) {
     #laptop {
         position: absolute;

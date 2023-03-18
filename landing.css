@@ -6,9 +6,8 @@ html {
 
 body {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-basis: 100%;
+    align-items: center;
     height: 100vh;
     width: 100vw;
     background-color: rgb(32, 122, 113);
@@ -107,8 +106,11 @@ body {
         min-height: 10vh;
 
     }
+    #spark2 {
+        right: 35%;
+    }
     #leaves {
-        bottom: 10%;
+        bottom: -2%;
         right: 12%;
         width: 13%;
     }
@@ -129,7 +131,7 @@ body {
 */
 @media screen and (orientation: portrait) {
     #leaves {
-        bottom: 18%;
+        bottom: 3%;
     }
     #arrow {
         right: 10%;
