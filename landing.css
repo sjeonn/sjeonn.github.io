@@ -76,7 +76,14 @@ body {
     top: 4%;
     left: 8%;
     height: 5%;
-    max-width: 17%; /*check*/
+}
+
+#heart {
+    position: absolute;
+    transform: rotate(12deg);
+    top: 10%;
+    left: 20%;
+    height: 8%;
 }
 
 .spine { /*spacing is prob gonna need to be fixed*/
@@ -104,7 +111,6 @@ body {
     #arrow {
         right: 7%;
         min-height: 10vh;
-
     }
     #spark2 {
         right: 35%;
@@ -134,9 +140,11 @@ body {
         bottom: 3%;
     }
     #arrow {
-        right: 10%;
-        min-height: 15vh;
-
+        position: fixed;
+        top: 45%;
+        right: 9%;
+        width: 5%;
+        z-index: 101;
     }
     #hello {
         position: relative;

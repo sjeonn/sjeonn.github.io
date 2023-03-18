@@ -105,7 +105,7 @@ a {
 }
 
 @media screen and (orientation: portrait) {
-    .sticker {
+    .sticker.horizontal {
         display: none;
     }
   }
