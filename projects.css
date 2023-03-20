@@ -100,10 +100,11 @@ li a:first-of-type {
     }
   }
 
+/*there is such a large discrepancy btwn my phone screen and laptop screen*/
 @media screen and (max-width:480px) {
     #laptop {
         position: absolute;
-        top: 42%;
+        top: 48%; 
         height: 15vh;
     }
 }
