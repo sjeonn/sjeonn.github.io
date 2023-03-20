@@ -68,6 +68,14 @@ iframe {
     iframe {
         display: none;
     }
+    #spark2 {
+        position: absolute;
+        top: 70%;
+    }
+    .main {
+        height: 20vh;
+        justify-content: flex-end;
+    }
 }
 
 @media screen and (orientation: landscape) {

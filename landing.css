@@ -141,8 +141,8 @@ body {
     }
     #arrow {
         position: fixed;
-        top: 45%;
-        right: 9%;
+        top: 48%;
+        right: 8%;
         width: 5%;
         z-index: 101;
     }
