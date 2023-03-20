@@ -103,7 +103,7 @@ li a:first-of-type {
 @media screen and (max-width:480px) {
     #laptop {
         position: absolute;
-        top: 50%;
+        top: 42%;
         height: 15vh;
     }
 }
