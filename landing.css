@@ -63,13 +63,13 @@ body {
 
 #spark2 {
     position: absolute;
-    transform: rotate(3deg);
     bottom: 3%;
     right: 25%;
     height: 12%;
     max-width: 10%;
 }
 
+/*
 #words {
     position: absolute;
     transform: rotate(-9deg);
@@ -85,7 +85,7 @@ body {
     left: 20%;
     height: 8%;
 }
-
+*/
 .spine { /*spacing is prob gonna need to be fixed*/
     position: absolute;
     left: 0%;
@@ -142,5 +142,9 @@ body {
     #hello {
         position: relative;
         bottom: 2%;
+    }
+    #spark1 {
+        position: absolute;
+        top:2%;
     }
 }

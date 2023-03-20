@@ -41,7 +41,7 @@ li a:first-of-type {
     right: 9%;
     height: 20vh;
 }
-
+/*
 #heart1 {
     position: absolute;
     transform: rotate(-10deg);
@@ -53,7 +53,7 @@ li a:first-of-type {
 #heart2 {
     display: none;
 }
-
+*/
 @media screen and (max-width: 1250px) {
     #laptop {
         position: absolute;
@@ -68,7 +68,7 @@ li a:first-of-type {
         top: 55%;
     }
 }
-
+/*
 @media screen and (max-width: 900px) {
     #heart1 {
         display: none;
@@ -88,23 +88,25 @@ li a:first-of-type {
         top: 137%;
     }    
 }
-
+*/
 @media screen and (orientation: portrait) {
     #laptop {
         position: absolute;
         top: 60%;
         height: 18vh;
     }
+    /*
     #heart2 {
         top: 145%;
     }
+    */
   }
 
-/*there is such a large discrepancy btwn my phone screen and laptop screen*/
+/*laptop/phone discrepancy*/
 @media screen and (max-width:480px) {
     #laptop {
         position: absolute;
-        top: 48%; 
+        top: 51%; 
         height: 15vh;
     }
 }
