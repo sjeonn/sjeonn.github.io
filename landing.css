@@ -127,21 +127,14 @@ body {
         right: 10%;
     }
 }
-/*
-@media screen and (max-width: 600px) {
-    #arrow {
-        right: 3%;
-        min-height: 10vh;    
-}
-}
-*/
+
 @media screen and (orientation: portrait) {
     #leaves {
         bottom: 3%;
     }
-    #arrow {
+    #arrow { 
         position: fixed;
-        top: 48%;
+        top: 48%; /*doesnt quite work for all proportions*/
         right: 8%;
         width: 5%;
         z-index: 101;

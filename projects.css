@@ -92,7 +92,7 @@ li a:first-of-type {
 @media screen and (orientation: portrait) {
     #laptop {
         position: absolute;
-        top: 60%;
+        top: 58%;
         height: 15vh;
     }
     #heart2 {
