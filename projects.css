@@ -36,77 +36,8 @@ li a:first-of-type {
 }
 
 #laptop {
-    position: absolute;
-    top: 40%;
-    right: 9%;
-    height: 20vh;
-}
-/*
-#heart1 {
-    position: absolute;
-    transform: rotate(-10deg);
-    top: 75%;
-    left: 10%;
-    height: 10vh;
-}
-
-#heart2 {
-    display: none;
-}
-*/
-@media screen and (max-width: 1250px) {
-    #laptop {
-        position: absolute;
-        top: 45%;
-    }
-}
-
-
-@media screen and (max-width: 1100px) {
-    #laptop {
-        position: absolute;
-        top: 55%;
-    }
-}
-/*
-@media screen and (max-width: 900px) {
-    #heart1 {
-        display: none;
-    }
-    #heart2 {
-        display: initial;
-        position: absolute;
-        transform: rotate(-10deg);
-        top: 120%;
-        right: 20%;
-        height: 10vh;
-    }    
-}
-
-@media screen and (max-width: 700px) {
-    #heart2 {
-        top: 137%;
-    }    
-}
-*/
-@media screen and (orientation: portrait) {
-    #laptop {
-        position: absolute;
-        top: 60%;
-        height: 18vh;
-    }
-    /*
-    #heart2 {
-        top: 145%;
-    }
-    */
-  }
-
-/*laptop/phone discrepancy*/
-@media screen and (max-width:480px) {
-    #laptop {
-        position: absolute;
-        top: 51%; 
-        height: 15vh;
-    }
+    position: relative;
+    left: 45%;
+    bottom: 10%;
+    height: 8vw;
 }

@@ -55,8 +55,8 @@ body {
 #spark1 {
     position: absolute;
     transform: rotate(3deg);
-    bottom: 25%;
-    left: 22%;
+    top: 4%;
+    left: 8%;
     height: 12%;
     max-width: 10%;
 }
@@ -142,9 +142,5 @@ body {
     #hello {
         position: relative;
         bottom: 2%;
-    }
-    #spark1 {
-        position: absolute;
-        top:2%;
     }
 }
