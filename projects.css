@@ -39,5 +39,6 @@ li a:first-of-type {
     position: relative;
     left: 45%;
     bottom: 10%;
-    height: 8vw;
+    height: 20vh;
+    max-width: 25vw;
 }
