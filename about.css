@@ -15,14 +15,8 @@ html {
     background-position: center;
 }
 
-#res:hover {
+#res:hover, #proj:hover {
     background-image: url("images/circle2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#proj:hover {
-    background-image: url("images/circle3.png");
     background-repeat: no-repeat;
     background-position: center;
 }

@@ -29,12 +29,21 @@ body {
     flex-wrap: wrap;
     border: solid red;
 }
+/*
+.header {
+    min-height: 160px;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: center;
+}
+*/
 
 .links {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: auto;
+    max-width: 90vw;
     border: solid green;
 }
 
@@ -44,7 +53,7 @@ a {
 }
 
 #name {
-    height: 60px;
+    /*height: 60px;*/
     border: solid black;
 }
 
@@ -66,25 +75,12 @@ a {
 }
 
 #proj {
-    width: 165px;
+    width: 100px;
     height: 73px;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (min-width: 900px) {
     .links {
-        width: auto;
-        max-width: 90vw;
-    }
-    .header {
-        min-height: 160px;
-        align-items: flex-end;
-        align-content: flex-end;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .content {
-        width: 78vw;
+        width: 50%;
     }
 }
