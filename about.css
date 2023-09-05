@@ -15,7 +15,7 @@ html {
     background-position: center;
 }
 
-#res:hover, #port:hover {
+#res:hover {
     background-image: url("images/circle2.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -25,50 +25,4 @@ html {
     background-image: url("images/circle3.png");
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.main {
-    justify-content: flex-start;
-    height: calc(100vh - 200px);
-}
-
-.desc {
-    height: 35vh;
-}
-
-.contact a {
-    text-decoration: underline;
-}
-
-#leaves {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
-    width: 13%;
-}
-
-#camp {
-    position: absolute;
-    transform: rotate(-10deg);
-    top: 30vh;
-    left: 10vw;
-    height: 27%;
-}
-
-#spark {
-    position: relative;
-    height: 40px;
-    top: 10px;
-    left: 10px;
-}
-
-@media screen and (max-width: 900px) {
-    #camp {
-        position: absolute;
-        transform: rotate(-10deg);
-        top: 70vh;
-        left: 60vw;
-        height: 27%;
-    
-    }
 }

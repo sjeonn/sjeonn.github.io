@@ -5,7 +5,7 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(234, 223, 202);
+    background-color: #E9F1F4;
 }
 
 .content {
@@ -13,7 +13,7 @@ body {
     flex: 1;
     flex-direction: column;
     align-items: center;
-    width: 65vw;
+    width: 80vw;
     height: 100vh;
     font-family: "Lexend", Arial, Helvetica, sans-serif;
     z-index: 100;
@@ -23,11 +23,11 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    min-height: 120px;
+    /*min-height: 120px;*/
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    /*border: solid red;*/
+    border: solid red;
 }
 
 .links {
@@ -35,7 +35,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 50%;
-    /*border: solid green;*/
+    border: solid green;
 }
 
 a {
@@ -45,24 +45,14 @@ a {
 
 #name {
     height: 60px;
-    /*border: solid black;*/
+    border: solid black;
 }
 
 .main {
     display: flex;
     flex-direction: column;
     width: inherit;
-    /*border: solid blue;*/
-}
-
-.spine { /*spacing is prob gonna need to be fixed*/
-    position: fixed;
-    left: 0%;
-    top: -1%;
-    width: 4vw;
-    height: 100vh;
-    background-image: url("images/spine-spaced.svg");
-    background-repeat: space;
+    border: solid blue;
 }
 
 #abt {
@@ -70,7 +60,7 @@ a {
     height: 58px;
 }
 
-#res, #port {
+#res {
     width: 100px;
     height: 73px;
 }
