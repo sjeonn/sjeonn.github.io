@@ -37,27 +37,6 @@ iframe {
     height: calc(65vw / 8.5 * 11.6);
 }  
 
-#spark1 {
-    position: absolute;
-    height: 50px;
-    top: 25%;
-    left: 10%;
-}
-
-#spark2 {
-    position: absolute;
-    height: 50px;
-    top: 90%;
-    right: 7%;
-}
-
-#spark3 {
-    position: absolute;
-    height: 50px;
-    top: 190%;
-    left: 12%;
-}
-
 .main a {
     align-self: center;
     text-decoration: underline;
@@ -68,10 +47,6 @@ iframe {
     iframe {
         display: none;
     }
-    #spark2 {
-        position: absolute;
-        top: 70%;
-    }
     .main {
         height: 20vh;
         justify-content: flex-end;
@@ -80,9 +55,6 @@ iframe {
 
 @media screen and (min-width: 480px) and (orientation: portrait) {
     .main a {
-        display: none;
-    }
-    #spark2, #spark1 {
         display: none;
     }
     iframe {
