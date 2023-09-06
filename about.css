@@ -24,22 +24,32 @@ html {
 }
 
 @media screen and (min-width: 900px) { /*900 px or bigger*/
-    #himobile {
+    #himobile, #name {
         display: none;
     }
+
     #hidesk {
         display: flex;
+        align-self: center;
+        width: 40%;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .header {
-        /*min-height: 160px;*/
-        align-items: flex-end;
-        align-content: center;
-        justify-content: space-between;
+    .main {
+        width: 50%;
+        justify-content: center;
     }
-    .text {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+}
+
+@media screen and (max-width: 900px) { /*mobile*/
+    #hidesk {
+        display: none;
     }
 }
