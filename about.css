@@ -22,3 +22,24 @@ html {
     background-position: center;
     background-size: 80%;
 }
+
+@media screen and (min-width: 900px) { /*900 px or bigger*/
+    #himobile {
+        display: none;
+    }
+    #hidesk {
+        display: flex;
+    }
+
+    .header {
+        /*min-height: 160px;*/
+        align-items: flex-end;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
