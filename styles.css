@@ -27,7 +27,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border: solid red;
 }
 
 .links {
@@ -36,7 +35,6 @@ body {
     align-items: center;
     width: auto;
     max-width: 90vw;
-    /*border: solid green;*/
 }
 
 a {
@@ -47,7 +45,6 @@ a {
 #name {
     height: 10vh;
     max-width: 80vw;
-    /*border: solid black;*/
 }
 
 .main {
@@ -78,11 +75,13 @@ a {
     }
 
     .header {
-        min-height: 15vh;
+        min-height: 20vh;
         width: 100%;
-        align-items: flex-end;
         align-content: center;
         justify-content: space-between;
-        border: solid red;
+        width: 70vw;
+    }
+    .content {
+        width: 70vw;
     }
 }
