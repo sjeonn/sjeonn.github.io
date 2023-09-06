@@ -10,13 +10,13 @@ html {
 }
 
 #abt {
-    background-image: url("images/circle1.png");
+    background-image: url("images/rec1.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #res:hover, #proj:hover {
-    background-image: url("images/circle2.png");
+    background-image: url("images/rec2.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
