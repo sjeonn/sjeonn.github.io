@@ -23,11 +23,11 @@ body {
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    height: 25vh;
+    height: 20vh;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    border: solid red;
+    /*border: solid red;*/
 }
 /* when wider screen
 .header {
@@ -44,7 +44,7 @@ body {
     align-items: center;
     width: auto;
     max-width: 90vw;
-    border: solid green;
+    /*border: solid green;*/
 }
 
 a {
@@ -55,14 +55,14 @@ a {
 #name {
     height: 10vh;
     max-width: 80vw;
-    border: solid black;
+    /*border: solid black;*/
 }
 
 .main {
     display: flex;
     flex-direction: column;
     width: inherit;
-    border: solid blue;
+    /*border: solid blue;*/
 }
 
 #abt {

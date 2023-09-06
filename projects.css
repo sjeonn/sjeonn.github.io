@@ -13,18 +13,24 @@ html {
     background-image: url("images/rec1.svg");
     background-repeat: no-repeat;
     background-position: center;
-}
+    background-size: 80%;
 
-#res:hover {
-    background-image: url("images/rec2.svg");
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 #proj {
     background-image: url("images/rec2.svg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 80%;
+
+}
+
+#res:hover {
+    background-image: url("images/rec2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+
 }
 
 .main a {
