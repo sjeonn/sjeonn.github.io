@@ -87,10 +87,7 @@ a {
     #himobile {
         display: none;
     }
-}
-
-@media screen and (max-width: 900px) { /*no pic on mobile*/
     #hidesk {
-        display: none;
+        display: flex;
     }
 }
