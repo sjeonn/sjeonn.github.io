@@ -23,9 +23,9 @@ body {
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    height: 20vh;
+    height: 25vh;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
 }
 
@@ -69,7 +69,7 @@ a {
     height: 50px;
 }
 
-@media screen and (min-width: 900px) { /*900 px or bigger*/
+@media screen and (min-width: 800px) { /*800 px or bigger*/
     .links {
         width: 40%;
     }

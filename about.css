@@ -23,7 +23,7 @@ html {
     background-size: 80%;
 }
 
-@media screen and (min-width: 900px) { /*900 px or bigger*/
+@media screen and (min-width: 800px) { /*800 px or bigger*/
     #himobile, #name {
         display: none;
     }
@@ -59,7 +59,7 @@ html {
     }
 }
 
-@media screen and (max-width: 900px) { /*mobile*/
+@media screen and (max-width: 799.9px) { /* "mobile" */
     #hidesk {
         display: none;
     }
